@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" id="op">
+<head>
+    <meta name="viewport" content="width=device-width," initial-scale="1.0">
+    <title>Haya Agencies</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body id="body">
+    <div class="hi">
+       
+      <div id="logo">
+        <a href="https://hayaagencies.github.io/hayaagencies/" id="logo">HAYA AGENCIES</a>
+      </div>
+      <div class="info">
+        <ul id="inf">
+            <li><a href="https://hayaagencies.github.io/hayaagencies/">Home</a></li>
+            <li><a href="#">About us </a></li>
+                <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div><br><br><br><br>
+    <div class="form">
+        <form id="gform" method="post"action="https://script.google.com/macros/s/AKfycbwGvdAjjfNxU0SGvGlf9KvQfnQuWlqWlp2BWqigOLMj6mYT_8xNrK1hHYRdTyPxpYY5Qw/exec" id="con">
+            <table>
+                <tr>
+                    <input type="text" id="Name" name="name" placeholder="Name" required><br><br>
+                    <input type="email" id="email" name="email" placeholder="email" required><br><br>
+                    <input type="country" id="country" name="country" placeholder="country" required><br><br>
+                    <textarea  rows="5" id="message" name="message" placeholder="your message"></textarea><br><br>
+                    <input onclick="doSomething()" type="submit" value="submit" id="button">
+                </tr>
+            </table>
+        </form>
+        <div class="equiery">
+            <p id="p">for any enquiry</p>
+            <p id="a">call us on : +91 9539133808,+91 4782990120 Email :hayaagenciesaroor@gmail.com</p>
+            <p id="b">call only at betweeen 9:30am to 5pm</p>
+        </div>
+    </div>
+    <div class="aboutus">
+
+    </div>
+    <script>
+        function doSomething(){
+            document.getElementById("op").innerHTML = "Thank You for Visitin Our Site"
+        }
+    </script>
+</body>
+</html>

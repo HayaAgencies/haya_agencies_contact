@@ -1,0 +1,100 @@
+.hi {
+    position: absolute;
+    margin: 0;
+    width: 150%;
+    background: black;
+    height: 120px;
+    text-decoration: none;
+}
+#logo{
+    color: #ffffff;
+    display: flex;  
+    font: caption;
+    font-size: 50px;
+    text-decoration: none;
+    position: sticky;
+    top: 5%;
+    left: 35%;
+    
+
+    transition: 0.5s;
+}
+#logo:hover{
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
+}
+#body{
+    margin: 0;
+    padding: 0;
+}
+#gform{
+    position: absolute;
+    left: 300px;
+    top: 30%;
+}
+.info ul li a{
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    font: caption;
+}
+#inf{
+    position: absolute;
+    left: 950px;
+    top: 35px;
+}
+.info ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+.equiery{
+    height: 120px;
+    background: black;
+    position: absolute;
+    top: 85%;
+    width: 150%;
+}
+#p{
+    color: #fff;
+     margin-left: 45%;
+     font: caption;
+}
+#a{
+    color: #fff;
+    margin-left: 25%;
+    font: caption;
+}
+#b{
+    color: #fff;
+    margin-left: 39%;
+    font: caption;
+}
+#Name{
+    background: midnightblue;
+    background-color: midnightblue;
+    color: black;
+}
+#email{
+    background: midnightblue;
+    background-color: midnightblue;
+    color: black;
+}
+#country{
+    background: midnightblue;
+    background-color: midnightblue;
+    color: black;
+}
+#message{
+    background: midnightblue;
+    background-color: midnightblue;
+    color: black;
+}
+#button{
+    position: absolute;
+    left: 30%;
+    background: midnightblue;
+    background-color: midnightblue;
+    color: black;
+    border-radius: 100px;
+}
