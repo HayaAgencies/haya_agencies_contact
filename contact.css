@@ -12,7 +12,7 @@
     font: caption;
     font-size: 50px;
     text-decoration: none;
-    position: sticky;
+    position: absolute;
     top: 5%;
     left: 35%;
     
