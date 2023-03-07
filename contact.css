@@ -73,28 +73,28 @@
 #Name{
     background: midnightblue;
     background-color: midnightblue;
-    color: black;
+    color: white ;
 }
 #email{
     background: midnightblue;
     background-color: midnightblue;
-    color: black;
+    color: white ;
 }
 #country{
     background: midnightblue;
     background-color: midnightblue;
-    color: black;
+    color: white ;
 }
 #message{
     background: midnightblue;
     background-color: midnightblue;
-    color: black;
+    color: white ;
 }
 #button{
     position: absolute;
     left: 30%;
     background: midnightblue;
     background-color: midnightblue;
-    color: black;
+    color: white;
     border-radius: 100px;
 }
